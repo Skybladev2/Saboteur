@@ -30,4 +30,9 @@ public class Player : MonoBehaviour
     {
         throw new NotImplementedException();
     }
+
+	private void OnPlayerRegistered(PublicPlayerInfo publicPlayerInfo)
+	{
+		throw new NotImplementedException();
+	}
 }
