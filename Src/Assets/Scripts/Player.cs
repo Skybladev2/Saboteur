@@ -35,4 +35,8 @@ public class Player : MonoBehaviour
 	{
 		throw new NotImplementedException();
 	}
+
+	private void OnPlayerNotRegistered(RegistrationRejectReason rejectReason)
+	{
+	}
 }
